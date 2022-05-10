@@ -44,8 +44,11 @@ function Discover({
   }, []);
 
   const Item = ({ title, onPress }: { title: string; onPress: () => any }) => (
+
+    //This is where the profile items are displayed 
     <Pressable style={styles.item} onPress={onPress}>
       <Text style={styles.title}>{title}</Text>
+      <Text>hello</Text>
     </Pressable>
   );
 
